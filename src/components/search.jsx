@@ -1,7 +1,7 @@
 import React from  'react';
-import '../assets/Search.scss';
+import '../assets/styles/Search.scss';
 
-function Search() {
+const Search = () => {
     return (
 <section className="main">
     <h2 className="main__title">¿Qué quieres ver hoy?</h2>

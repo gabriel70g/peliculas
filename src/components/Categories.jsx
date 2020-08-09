@@ -1,12 +1,12 @@
 import React from 'react';
-import '../assets/Categories.scss';
+import '../assets/styles/Categories.scss';
 
 
-function Categories( {Children} )  {
+const Categories = ( {children, title }  ) => {
 return (
     <div className="Categories">
-          <h3 className="categories__title">Mi lista</h3>
-           { Children }     
+          <h3 className="categories__title">{ title } </h3>
+           { children }     
     </div>
     );
 }

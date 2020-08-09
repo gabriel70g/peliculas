@@ -1,13 +1,13 @@
-import React from 'react';
-import '../assets/Carousel.scss';
+import React, { ReactChild } from 'react';
+import '../assets//styles/Carousel.scss';
 
 
-function Carousel({ Children })  {
+const Carousel= ({children}) => {
     return (
 
 <section className="carousel">
     <div className="carousel__container">
-        { Children }
+        { children }
     </div>
 </section>
     );
